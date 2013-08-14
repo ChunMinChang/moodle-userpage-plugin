@@ -1,0 +1,353 @@
+/*
+ * This CSS is for nthu_my only
+ * 
+ * Author : Chun-Min Chang
+ *
+ * Last Update : 2013-07-10
+ *
+ * Contact : tangent7787@gmail.com 
+ *
+ */
+
+
+
+
+/* For assigment overview */
+
+p.nthu-assignment-delay-text {
+	color: #FF1C19;
+}
+
+
+.nthu-assignment-table{
+	display:table;
+    width:90%;
+    border-collapse: collapse;
+}
+
+
+.nthu-assignment-table-heading{
+	font-weight: bold;
+    display:table-row;
+    background-color:#C91622;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-family:georgia;
+    color:#fff;
+}
+
+
+.nthu-assignment-table-row{  
+    display:table-row;
+    text-align: center;
+}
+
+
+.nthu-assignment-table-col{ 
+	display:table-cell;
+    border: 1px solid #CCC;
+	vertical-align:middle;
+}
+
+/* For assigment overview */
+
+
+
+/* 
+ * For jQuery course overview 
+ *
+ * Modified from : http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css
+ *
+ */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0);
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+/* left-aligned */
+.ui-menu .ui-icon {
+	position: absolute;
+	top: .2em;
+	left: .2em;
+}
+
+/* vertical centre icon */
+.ui-spinner .ui-icon {
+	position: absolute;
+	margin-top: -8px;
+	top: 50%;
+	left: 0;
+}
+
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_222222_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-widget-header .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_222222_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-state-default .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_888888_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_888888_256x240.png);
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_454545_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_454545_256x240.png);
+}
+.ui-state-active .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_454545_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_454545_256x240.png);
+}
+.ui-state-highlight .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_2e83ff_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_2e83ff_256x240.png);
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background-image: url(images/ui-icons_cd0a0a_256x240.png);*/
+	background-image: url(http://code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_cd0a0a_256x240.png);
+}
+
+/* TR overrides */
+.ui-spinner .ui-icon-triangle-1-s {
+	/* need to fix icons sprite */
+	background-position: -65px -16px;
+}
+
+/* positioning */
+
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #d3d3d3;
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;*/
+	background: #e6e6e6;
+	font-weight: normal;
+	color: #555555;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #555555;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #999999;
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;*/
+	background: #BBBBBB;
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #aaaaaa;
+	/* For Course Overview jQuery module of nthu_my.php */
+	/*background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;*/
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+	color: #222222;
+}
+.ui-widget-content a {
+	color: #222222;
+}
+.ui-widget-header {
+	border: 1px solid #aaaaaa;
+	background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+	color: #222222;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #222222;
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+}
+
+
+
+/* For Course Overview jQuery module of nthu_my.php */
+.ui-accordion-header-active{
+	background: #999999;
+	color: #FFFFFF;
+}
+/* For Course Overview jQuery module of nthu_my.php */
+
+
+
+.ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-noicons {
+	padding-left: .7em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+
+.ui-accordion-content a{
+	color : #3366ff;
+}
+
+/* For jQuery course overview */
